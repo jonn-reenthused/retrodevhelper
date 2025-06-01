@@ -17,7 +17,7 @@ pub fn project() -> io::Result<()> {
             "-v",
             &build_dir,
             "-t",
-            "registry.gitlab.com/doragasu/docker-sgdk:v1.80",
+            "registry.gitlab.com/doragasu/docker-sgdk:v2.11-mw",
         ])
         .output()?;
 
